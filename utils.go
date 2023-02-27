@@ -9,7 +9,7 @@ func InSlice(key string, sl []string) bool {
 	return false
 }
 
-func IntInSlice(key int, sl []int) bool {
+func IntInSlice3(key int, sl []int) bool {
 	for _, el := range sl {
 		if el == key {
 			return true
