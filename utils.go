@@ -1,6 +1,6 @@
 package utils
 
-func Contains(key string, sl []string) bool {
+func InSlice(key string, sl []string) bool {
 	for _, el := range sl {
 		if el == key {
 			return true
@@ -9,7 +9,7 @@ func Contains(key string, sl []string) bool {
 	return false
 }
 
-func ContainsInt(key int, sl []int) bool {
+func IntInSlice(key int, sl []int) bool {
 	for _, el := range sl {
 		if el == key {
 			return true
